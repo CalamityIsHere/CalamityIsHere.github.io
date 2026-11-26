@@ -1,0 +1,11 @@
+{
+  "name": "Signal Bench",
+  "headline": "From the workbench.",
+  "welcome": "Welcome to my electrical engineering portfolio. Explore the ideas, circuits, and measurements behind my projects.",
+  "intro": "I’m an electrical engineer. This is where I share my work and the decisions behind it.",
+  "bio": "I use this portfolio to document engineering work from the first design question through to the bench test. Each write-up leaves room for the circuit, the reasoning behind it, and the measurements that informed the next revision.",
+  "background": "",
+  "projectsIntro": "Design notes, circuit studies, and lessons from the bench.",
+  "contactIntro": "Have a question about a project or an idea for a collaboration? I’d like to hear from you.",
+  "email": ""
+}

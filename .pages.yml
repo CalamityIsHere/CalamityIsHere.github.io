@@ -1,0 +1,81 @@
+media:
+  input: uploads
+  output: /uploads
+  extensions: [png, jpg, jpeg, webp, gif, svg]
+content:
+  - name: profile
+    label: Portfolio settings
+    type: file
+    path: content/profile.json
+    format: json
+    fields:
+      - name: name
+        label: Portfolio name
+        type: string
+        required: true
+      - name: headline
+        label: Welcome headline
+        type: string
+        required: true
+      - name: welcome
+        label: Welcome message
+        type: text
+        required: true
+      - name: intro
+        label: Short introduction
+        type: text
+        required: true
+      - name: bio
+        label: Biography
+        type: text
+        required: true
+      - name: background
+        label: Additional background
+        type: text
+      - name: projectsIntro
+        label: Projects introduction
+        type: text
+        required: true
+      - name: contactIntro
+        label: Contact introduction
+        type: text
+        required: true
+      - name: email
+        label: Public contact email
+        type: string
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    format: json
+    filename: "{primary}.json"
+    fields:
+      - name: title
+        label: Project title
+        type: string
+        required: true
+      - name: category
+        label: Project category
+        type: string
+      - name: summary
+        label: Short summary
+        type: text
+        required: true
+      - name: brief
+        label: Design brief
+        type: text
+      - name: design
+        label: Design decisions
+        type: text
+      - name: results
+        label: Results and lessons
+        type: text
+      - name: image
+        label: Photo or schematic
+        type: image
+      - name: alt
+        label: Image description
+        type: string
+      - name: published
+        label: Show on website
+        type: boolean

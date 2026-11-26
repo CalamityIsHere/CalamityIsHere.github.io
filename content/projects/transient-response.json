@@ -1,0 +1,11 @@
+{
+  "title": "Reading a damped oscillation",
+  "category": "Illustrative study",
+  "summary": "Use a normalized waveform to read the period of a ringing signal and the rate at which its amplitude decays.",
+  "brief": "A ringing trace contains two useful time scales. The spacing between successive peaks gives the oscillation period. The change in peak height tells us how quickly the oscillation dies away.",
+  "design": "The welcome-page illustration plots a sine wave multiplied by a decaying exponential, after a short delay. The horizontal and vertical scales are normalized. This is a mathematical illustration, so the trace carries no physical time or voltage units.",
+  "results": "Successive positive peaks get closer to the baseline even as their spacing stays constant. On a measured trace, recording both peak spacing and peak height would let us describe frequency and damping separately.",
+  "image": "/uploads/transient-response.svg",
+  "alt": "Green oscillation on a scope grid with constant peak spacing and decreasing amplitude.",
+  "published": true
+}
